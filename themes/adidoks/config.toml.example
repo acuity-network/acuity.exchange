@@ -1,6 +1,6 @@
 # The URL the site will be built for
-base_url = "https://acuity.exchange/"
-title = "Acuity DEX"
+base_url = "https://adidoks.netlify.com"
+title = "AdiDoks"
 description = "AdiDoks is a Zola theme helping you build modern documentation websites, which is a port of the Hugo theme Doks for Zola."
 
 # The site theme to use.
@@ -51,7 +51,7 @@ twitter = "https://twitter.com/aaranxu"
 email = "aaranxu@outlook.com"
 
 # If running on netlify.app site, set to true
-is_netlify = false
+is_netlify = true
 
 # Set HTML file language
 language_code = "en-US"
@@ -130,14 +130,14 @@ weight = 20
 
 # Footer contents
 [extra.footer]
-info = ''
+info = 'Powered by <a href="https://www.netlify.com/">Netlify</a>, <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a>'
 
-# [[extra.footer.nav]]
-# name = "Privacy"
-# url = "/privacy-policy/"
-# weight = 10
+[[extra.footer.nav]]
+name = "Privacy"
+url = "/privacy-policy/"
+weight = 10
 
-# [[extra.footer.nav]]
-# name = "Code of Conduct"
-# url = "/docs/contributing/code-of-conduct/"
-# weight = 20
+[[extra.footer.nav]]
+name = "Code of Conduct"
+url = "/docs/contributing/code-of-conduct/"
+weight = 20
