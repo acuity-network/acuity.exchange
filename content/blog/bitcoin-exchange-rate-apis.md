@@ -1,16 +1,15 @@
 +++
 title = "Review of Bitcoin exchange rate APIs"
+description = 'Originally published on jonathanpatrick.me.'
 date = 2014-03-07
 draft = false
 template = "blog/page.html"
 
 [taxonomies]
 authors = ["Jonathan Brown"]
-
-[extra]
-lead = 'Originally published on jonathanpatrick.me. Retrieved from the <a href="https://web.archive.org/web/20181108145044/http://jonathanpatrick.me/blog/bitcoin-exchange-rate-apis">Wayback Machine</a>.'
 +++
 
+Retrieved from the [Wayback Machine](https://web.archive.org/web/20181108145044/http://jonathanpatrick.me/blog/bitcoin-exchange-rate-apis).
 
 <h2><a href="https://web.archive.org/web/20181108145044/https://openexchangerates.org/documentation" target="_blank">Open Exchange Rates</a></h2>
 <p>This API is more geared to government issued currencies and is very popular with startups. It is mentioned here because many of the other Bitcoin currency APIs utilise it in some form.</p>
